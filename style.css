@@ -1,36 +1,40 @@
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;
-  background: #eef2f7;
+  background: #f5f7fb;
   color: #222;
   text-align: center;
+  scroll-behavior: smooth;
 }
 
 h2 {
   font-weight: 600;
-  color: #1e3a5f;
+  color: #1f3b73;
+  margin-bottom: 10px;
 }
 
 header {
-  background: linear-gradient(135deg, #1e3a5f, #355c7d);
+  background: linear-gradient(135deg, #1f3b73, #3a6ea5);
   color: white;
-  padding: 50px 20px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 60px 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 header h1 {
-  font-size: 38px;
+  font-size: 40px;
   margin: 0;
   font-weight: 600;
+  letter-spacing: 1px;
 }
 
 header p {
-  font-size: 15px;
+  font-size: 16px;
   opacity: 0.9;
+  margin-top: 8px;
 }
 
 nav {
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
 nav a {
@@ -40,7 +44,7 @@ nav a {
   font-size: 15px;
   font-weight: 500;
   opacity: 0.85;
-  transition: 0.2s;
+  transition: 0.3s;
 }
 
 nav a:hover {
@@ -49,8 +53,8 @@ nav a:hover {
 }
 
 section {
-  padding: 60px 20px;
-  max-width: 900px;
+  padding: 70px 20px;
+  max-width: 1000px;
   margin: auto;
 }
 
@@ -59,23 +63,31 @@ section {
   justify-content: center;
   flex-wrap: wrap;
   gap: 25px;
-  margin-top: 30px;
+  margin-top: 35px;
 }
 
 .card {
   background: white;
   padding: 25px;
   width: 250px;
-  border-radius: 10px;
-  box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
-  transition: 0.25s;
-  border-top: 4px solid #355c7d;
+  border-radius: 14px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+  transition: 0.3s ease;
+  border-top: 4px solid #3a6ea5;
 }
 
 .card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-  border-color: #1e3a5f;
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  border-color: #1f3b73;
+}
+
+footer {
+  background: #1f3b73;
+  color: white;
+  padding: 15px 0;
+  font-size: 14px;
+  margin-top: 40px;
 }
 
 @media (max-width: 700px) {
