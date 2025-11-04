@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: #eef2f7;
+  color: #222;
+  text-align: center;
+}
+
+h2 {
+  font-weight: 600;
+  color: #1e3a5f;
+}
+
+header {
+  background: linear-gradient(135deg, #1e3a5f, #355c7d);
+  color: white;
+  padding: 50px 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  font-size: 38px;
+  margin: 0;
+  font-weight: 600;
+}
+
+header p {
+  font-size: 15px;
+  opacity: 0.9;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  opacity: 0.85;
+  transition: 0.2s;
+}
+
+nav a:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
+  transition: 0.25s;
+  border-top: 4px solid #355c7d;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  border-color: #1e3a5f;
+}
+
+@media (max-width: 700px) {
+  .card {
+    width: 90%;
+  }
+}
